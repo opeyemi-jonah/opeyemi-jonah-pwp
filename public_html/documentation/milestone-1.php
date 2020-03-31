@@ -19,7 +19,7 @@
 			home insurance clients.</p>
 
 	<h2>Persona</h2>
-
+	<img src="maya.jpg" alt="photo of maya moore">
 	<p><strong>Name:</strong> Maya Moore</p>
 
 	<p><strong>Age:</strong> 30</p>
