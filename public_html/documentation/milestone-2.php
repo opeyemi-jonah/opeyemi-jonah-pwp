@@ -27,6 +27,7 @@ The buttons will contain the following:</p>
 <p></p>
 
 <h3>Mobile Layout</h3>
+
 <img src="new-wireframe2.png" alt="mobile layout display image">
 
 </body>
