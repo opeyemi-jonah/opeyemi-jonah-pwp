@@ -41,7 +41,7 @@
 		 for the company who will be<br> willing to take a lower salary for at least 2 years.
 	</p>
 
-	<p><strong>Goals:</strong> Maya's goal is to find other ways to get her apartments leased to residents.
+	<p><strong>Goals:</strong> Maya's goal is to find and higher full-stack web developer as interns.
 	</p>
 
 	<p><strong>User Story:</strong> As a user, I need to determine a candidate at first glance for an internship level<br> full stack web

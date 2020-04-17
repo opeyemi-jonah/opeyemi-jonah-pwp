@@ -7,7 +7,7 @@
 </head>
 <body>
 <h2>Content Strategy</h2>
-<p>This site will consist of a single web page with 3 buttons to quickly navigate to a section of the page.
+<p>This site will consist of a single web page with 4 buttons to quickly navigate to a section on the page.
 The buttons will contain the following:</p>
 
 <p><strong>Welcome:</strong> This will be my logo and my name on a wallpaper.</p>
