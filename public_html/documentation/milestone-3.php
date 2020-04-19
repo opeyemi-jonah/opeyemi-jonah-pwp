@@ -23,8 +23,8 @@
 <!--Header-->
 
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Jonah</a>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed">
+		<a class="navbar-brand" href="https://github.com/opeyemi-jonah">Jonah</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -46,15 +46,16 @@
 		</div>
 	</nav>
 <!--end of nav-->
-	<header id ="header" class="bg-primary">
+	<header id ="header" class="contact-pic">
 	<div class="container">
 		<div class="row height align-items-center">
 			<div class="col">
 				<h1 class="text-black-50 text-uppercase font-weight-bold font-italic mb-5">
 					<strong>Hello, I'm Jonah</strong>
-					<small class="text-light">A fullstack web developer</small>
+					<small class="text-light">Welcome to my web portfolio!</small>
 				</h1>
-				<p class=" lead py-2 w-75 text-white text-capitalized">Let's turn your ideas into a reality</p>
+				<p class=" lead py-2 w-75 text-dark text-capitalized">A fullstack web developer. Looking for a full-time employment or part-time and I will highly
+					 consider an intern position to gain your trust that I belong. Let's turn your ideas into a reality, shall we!</p>
 
 			</div>
 		</div>
@@ -225,7 +226,7 @@
 		<!--single col-->
 
 		<div class="col-md-6 col-lg-3 text-center my-4">
-			<i class="fab fa-java fa-5x mt-4" id="php"></i>
+			<i class="fab fa-java fa-5x mt-4" id="java"></i>
 			<h3 class="text-uppercase my-3">java</h3>
 			<p class="text-danger">Java is a general-purpose programming language that is class-based, object-oriented,
 				and designed to have as few implementation dependencies as possible. I have worked with java building software
@@ -241,7 +242,7 @@
 <!--End of skills section-->
 
 <section id="contact" class=" py-5">
-	<div class="container-fluid d-flex">
+	<div class="container-fluid contact-pic">
 		<form>
 
 			<input type="text" id="firstname" name="firstname" placeholder="Your Name (required)">

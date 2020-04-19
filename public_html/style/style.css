@@ -7,10 +7,21 @@ img{
 	min-height: 80vh;
 
 }
-#php{
+#react{
+	color: #00D2F8;
+}
+
+#js,#java{
+	color: red;
+}
+#html5{
+	color: #d94c19;
+}
+#php,#git{
 	color: mediumpurple;
 
 }
+
 .title-underline{
 
 	height: 3px;
@@ -28,10 +39,15 @@ body{font-family: 'Arvo', serif;}
 	margin:0 auto;
 
 }
-
-#contact{
-	background-color: black;
+.contact-pic{
+	background: url("../images/h2o.jpg")center/cover no-repeat fixed;;
 }
+.height-80{
+	min-height: 80vh;
+
+}
+
+
 
 .foot{
 	min-height: 10vh;
