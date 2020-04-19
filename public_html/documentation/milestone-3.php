@@ -22,24 +22,24 @@
 <body>
 <!--Header-->
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		<a class="navbar-brand" href="https://github.com/opeyemi-jonah">Jonah</a>
+	<nav id ="nav-bar" class="navbar navbar-expand-lg navbar-light fixed-top">
+		<a class="navbar-brand glowy" href="https://github.com/opeyemi-jonah">Jonah</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+		<div class="collapse navbar-collapse justify-content-end " id="navbarNav">
 			<ul class="navbar-nav">
 				<li class="nav-item active text-uppercase">
-					<a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link text-white glowy" href="#header">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#about">About</a>
+					<a class="nav-link text-primary glowy" href="#about">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#skills">skills</a>
+					<a class="nav-link text-primary glowy" href="#skills">skills</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#contact">contact</a>
+					<a class="nav-link text-primary glowy" href="#contact">contact</a>
 				</li>
 			</ul>
 		</div>
