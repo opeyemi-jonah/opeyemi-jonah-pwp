@@ -1,17 +1,60 @@
-.blue{
-	background-color: blue;
-	padding-top: 20px;
-}
-.center{
-	text-align: center;
-}
-body{
-	font-family: "Courier New";
-}
-h4{
-	color: blanchedalmond;
-}
-#About{
-	color: black;
 
+img{
+	height: 20px;
+	width: 200px;
+}
+.height-80{
+	min-height: 80vh;
+
+}
+#php{
+	color: mediumpurple;
+
+}
+.title-underline{
+
+	height: 3px;
+	width: 230px;
+	margin-left: 200px;
+}
+.height{
+	height: 50vh;
+}
+body{font-family: 'Arvo', serif;}
+
+.skills-underline{
+	height: 3px;
+	width: 200px;
+	margin:0 auto;
+
+}
+
+#contact{
+	background-color: black;
+}
+
+.foot{
+	min-height: 10vh;
+	display: flex;
+	justify-content: center;
+}
+
+input[type=text],textarea{
+	width: 50%; /* Full width */
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	padding-left: 2em;
+	padding-bottom: 0.5em;
+	padding-top: 1em;
+	margin: 20px 12px;
+	height: 5%;
+	}
+
+#button{
+	text-align: center;
+	display: flex;
+	justify-self: left;
+	margin-left: 18px;
+	width: 100px;
+	padding-left: 25px;
 }

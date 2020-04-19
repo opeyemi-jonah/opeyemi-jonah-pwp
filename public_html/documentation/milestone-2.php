@@ -28,7 +28,7 @@ The buttons will contain the following:</p>
 
 <h3>Mobile Layout</h3>
 
-<img src="new-wireframe2.png" alt="mobile layout display image">
+<img src="new-wireframe2.png" alt="mobile layout display image" height="750" width="950">
 
 </body>
 </html>
