@@ -11,13 +11,17 @@ img{
 	color: #00D2F8;
 }
 
+#envelope{
+	margin-left: 20px;
+}
+
 #js,#java{
 	color: red;
 }
 #html5{
 	color: #d94c19;
 }
-#php,#git{
+#php,#git,#mysql{
 	color: mediumpurple;
 
 }

@@ -1,5 +1,5 @@
-<html>
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
 	<!-- Required meta tags -->
@@ -21,7 +21,6 @@
 
 <body>
 <!--Header-->
-
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		<a class="navbar-brand" href="https://github.com/opeyemi-jonah">Jonah</a>
@@ -65,10 +64,11 @@
 <!--End of header-->
 <!--About Me section starts-->
 <section id="about">
+
 <div class="container-fluid">
-	<h1 class="display-5 text-left text-uppercase text-dark mb-0 px-5">
+	<p class="display-5 text-left text-uppercase text-dark mb-0 px-5">
 		<strong>About Me</strong>
-	</h1>
+	</p>
 	<div class="title-underline bg-danger ml-5"></div>
 	<p class="text-muted px-4 py-3 col-md-12">
 		Hi, my name is Opeyemi Jonah, a full-stack web developer. That just means I
@@ -117,9 +117,9 @@
 	<!--title-->
 	<div class="row">
 		<div class="col text-center">
-			<h1 class="display-4 text-uppercase text-dark mb-0">
+			<p class="display-4 text-uppercase text-dark mb-0">
 				<strong>skills</strong>
-			</h1>
+			</p>
 			<p class="skills-underline bg-secondary py-1"></p>
 		</div>
 	</div>
@@ -199,7 +199,7 @@
 
 		<div class="col-md-6 col-lg-3 text-center my-4">
 
-			<i class="fab fa-css3 fa-5x mt-4" id="php"></i>
+			<i class="fab fa-css3 fa-5x mt-4" id="css"></i>
 			<h3 class="text-uppercase my-3">css</h3>
 			<p class="text-danger">Cascading Style Sheets is a style sheet language used for describing the presentation of a
 				document written in a markup language like HTML.
@@ -214,7 +214,7 @@
 
 		<div class="col-md-6 col-lg-3 text-center my-4">
 
-			<i class="fas fa-database fa-5x mt-4" id="php"></i>
+			<i class="fas fa-database fa-5x mt-4" id="mysql"></i>
 			<h3 class="text-uppercase my-3">mysql</h3>
 			<p class="text-danger">MySQL is the most popular Open Source Relational SQL Database Management System.
 				MySQL is one of the best RDBMS being used for developing various web-based software applications
@@ -242,7 +242,14 @@
 <!--End of skills section-->
 
 <section id="contact" class=" py-5">
+
 	<div class="container-fluid contact-pic">
+		<div class="row">
+			<div id="envelope" class="col d-flex py-2"><i class="fas fa-envelope fa-3x"></i>
+				<h4 class="align-self-center px-2">Contact</h4>
+			</div>
+		</div>
+
 		<form>
 
 			<input type="text" id="firstname" name="firstname" placeholder="Your Name (required)">
