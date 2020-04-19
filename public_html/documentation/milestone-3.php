@@ -30,16 +30,16 @@
 		<div class="collapse navbar-collapse justify-content-end " id="navbarNav">
 			<ul class="navbar-nav">
 				<li class="nav-item active text-uppercase">
-					<a class="nav-link text-white glowy" href="#header">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link text-white" href="#header">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-primary glowy" href="#about">About</a>
+					<a class="nav-link text-primary" href="#about">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-primary glowy" href="#skills">skills</a>
+					<a class="nav-link text-primary" href="#skills">skills</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-primary glowy" href="#contact">contact</a>
+					<a class="nav-link text-primary" href="#contact">contact</a>
 				</li>
 			</ul>
 		</div>
