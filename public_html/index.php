@@ -9,13 +9,13 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<!--main css-->
-	<link rel="stylesheet" href="../style/style.css">
+	<link rel="stylesheet" href="style/style.css">
 	<!--google fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
 	<!--font awesome-->
-	<script src="../js/all.js"></script>
-	<title>Hello, world!</title>
+	<script src="js/all.js"></script>
+	<title>milestone-3</title>
 </head>
 
 
@@ -45,6 +45,7 @@
 		</div>
 	</nav>
 <!--end of nav-->
+
 	<header id ="header" class="contact-pic">
 	<div class="container">
 		<div class="row height align-items-center">
@@ -53,20 +54,20 @@
 					<strong>Hello, I'm Jonah</strong>
 					<small class="text-light">Welcome to my web portfolio!</small>
 				</h1>
-				<p class=" lead py-2 w-75 text-dark text-capitalized">A fullstack web developer. Looking for a full-time employment or part-time and I will highly
-					 consider an intern position to gain your trust that I belong. Let's turn your ideas into a reality, shall we!</p>
-
+				<p class="lead w-75 text-dark text-capitalized">A fullstack web developer. Looking for a full-time employment or part-time and I will highly
+					 consider an intern position to gain your trust that I belong. Let's turn your ideas into a reality, shall we?</p>
 			</div>
 		</div>
 	</div>
 
 </header>
 <!--End of header-->
+
 <!--About Me section starts-->
 <section id="about">
 
 <div class="container-fluid">
-	<p class="display-5 text-left text-uppercase text-dark mb-0 px-5">
+	<p class="display-4 text-left text-uppercase text-dark mb-0 px-5">
 		<strong>About Me</strong>
 	</p>
 	<div class="title-underline bg-danger ml-5"></div>
@@ -113,7 +114,7 @@
 <!--End of about me section-->
 
 <!--Skills section starts here-->
-<section id="skills" class="bg-warning py-4">
+<section id="skills" class="bg-warning py-2 container-fluid">
 	<!--title-->
 	<div class="row">
 		<div class="col text-center">
@@ -126,9 +127,9 @@
 		<!--end of title-->
 
 	<div class="row text-center">
-		<!--single col-->
 
-		<div class="col-md-6 col-lg-3 text-center my-4">
+		<!--single col-->
+		<div class="col-6 col-md-4 col-lg-3 text-center my-4">
 
 			<i class="fab fa-php fa-5x mt-4" id="php"></i>
 			<h3 class="text-uppercase my-3">php</h3>
@@ -142,7 +143,7 @@
 
 		<!--single col-->
 
-		<div class="col-md-6 col-lg-3 text-center my-4">
+		<div class="col-6 col-md-4 col-lg-3 text-center my-4">
 
 			<i class="fab fa-js fa-5x mt-4" id="js"></i>
 			<h3 class="text-uppercase my-3">javascript</h3>
@@ -156,7 +157,7 @@
 
 		<!--single col-->
 
-		<div class="col-md-6 col-lg-3 text-center my-4">
+		<div class="col-6 col-md-4 col-lg-3 text-center my-4">
 
 			<i class="fab fa-react fa-5x mt-4" id="react"></i>
 			<h3 class="text-uppercase my-3">react.js</h3>
@@ -170,7 +171,7 @@
 
 		<!--single col-->
 
-		<div class="col-md-6 col-lg-3 text-center my-4">
+		<div class="col-6 col-md-4 col-lg-3 text-center my-4">
 
 			<i class="fab fa-github fa-5x mt-4" id="git"></i>
 			<h3 class="text-uppercase my-3">git</h3>
@@ -183,7 +184,7 @@
 
 		<!--single col-->
 
-		<div class="col-md-6 col-lg-3 text-center my-4">
+		<div class="col-6 col-md-4 col-lg-3 text-center my-4">
 
 			<i class="fab fa-html5 fa-5x mt-4" id="html5"></i>
 			<h3 class="text-uppercase my-3">html5</h3>
@@ -197,7 +198,7 @@
 
 		<!--single col-->
 
-		<div class="col-md-6 col-lg-3 text-center my-4">
+		<div class="col-6 col-md-4 col-lg-3 text-center my-4">
 
 			<i class="fab fa-css3 fa-5x mt-4" id="css"></i>
 			<h3 class="text-uppercase my-3">css</h3>
@@ -212,7 +213,7 @@
 
 		<!--single col-->
 
-		<div class="col-md-6 col-lg-3 text-center my-4">
+		<div class="col-6 col-md-4 col-lg-3 text-center my-4">
 
 			<i class="fas fa-database fa-5x mt-4" id="mysql"></i>
 			<h3 class="text-uppercase my-3">mysql</h3>
@@ -225,7 +226,7 @@
 
 		<!--single col-->
 
-		<div class="col-md-6 col-lg-3 text-center my-4">
+		<div class="col-6 col-md-4 col-lg-3 text-center my-4">
 			<i class="fab fa-java fa-5x mt-4" id="java"></i>
 			<h3 class="text-uppercase my-3">java</h3>
 			<p class="text-danger">Java is a general-purpose programming language that is class-based, object-oriented,
@@ -241,9 +242,9 @@
 </section>
 <!--End of skills section-->
 
-<section id="contact" class=" py-5">
+<section id="contact" class=" contact-pic py-5">
 
-	<div class="container-fluid contact-pic">
+	<div class="container-fluid  height">
 		<div class="row">
 			<div id="envelope" class="col d-flex py-2"><i class="fas fa-envelope fa-3x"></i>
 				<h4 class="align-self-center px-2">Contact</h4>
@@ -272,7 +273,7 @@
 			<!--single item-->
 			<div class="col py-2">
 				<a href="https://www.facebook.com/opeyemi.jonah.94"><i class="fab fa-facebook-square fa-4x px-2 "></i></a>
-				<a href="https://github.com/opeyemi-jonah"><i class="fab fa-github-alt fa-4x px-2"></i></a>
+				<a href="https://github.com/opeyemi-jonah"><i class="fab fa-github-alt fa-4x px-2" id="git"></i></a>
 				<a href="https://www.linkedin.com/in/opeyemi-jonah-988800197/"><i class="fab fa-linkedin fa-4x px-2"></i></a>
 			</div>
 			<!--end of item-->
