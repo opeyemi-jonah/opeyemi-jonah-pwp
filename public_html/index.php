@@ -255,9 +255,10 @@
 </section>
 <!--End of skills section-->
 
-<section id="contact" class=" contact-pic py-5">
+<div class="contact-pic  container-fluid py-5">
+<section id="contact" class="row ">
 
-	<div class="container-fluid  height">
+	<div class="container-fluid">
 		<div class="row">
 			<div id="envelope" class="col d-flex py-2"><i class="fas fa-envelope fa-3x"></i>
 				<h4 class="align-self-center px-2">Contact</h4>
@@ -272,22 +273,24 @@
 
 			<textarea id="subject" name="subject" placeholder="Message..." style="height:200px"></textarea>
 
-			<div class="g-recaptcha" data-sitekey="6LeCBOwUAAAAAMmQ-ehc4EwUr2_wW1BxUr3z8T9p"></div>
+			<div class="g-recaptcha ml-3" data-sitekey="6LeCBOwUAAAAAMmQ-ehc4EwUr2_wW1BxUr3z8T9p"></div>
 
-			<button class="btn btn-success ml-3" type="submit"> Send</button>
+			<button class="btn btn-success ml-3 " type="submit"> Send</button>
 			<button class="btn btn-warning ml-3" type="reset">Reset</button>
 
 		</form>
+
 	</div>
 </section>
-
+</div>
 
 <!--footer-->
+
 <footer>
 	<div class="container-fluid bg-dark foot">
 		<div class="row">
 			<!--single item-->
-			<div class="col py-2">
+			<div class="col py-3">
 				<a href="https://www.facebook.com/opeyemi.jonah.94"><i class="fab fa-facebook-square fa-4x px-2 "></i></a>
 				<a href="https://github.com/opeyemi-jonah"><i class="fab fa-github-alt fa-4x px-2" id="git"></i></a>
 				<a href="https://www.linkedin.com/in/opeyemi-jonah-988800197/"><i class="fab fa-linkedin fa-4x px-2"></i></a>
