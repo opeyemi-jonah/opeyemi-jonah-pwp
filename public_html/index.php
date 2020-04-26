@@ -253,13 +253,16 @@
 
 		<form>
 
-			<input type="text" id="firstname" name="firstname" placeholder="Your Name (required)">
+			<input type="text" id="name" name="name" placeholder="Your Name (required)">
 
 			<input type="text" id="email" name="email" placeholder="Your Email (required)">
 
 			<textarea id="subject" name="subject" placeholder="Message..." style="height:200px"></textarea>
 
-			<input type="submit" value="SEND" id="button">
+			<div class="g-recaptcha" data-sitekey="6LeCBOwUAAAAAMmQ-ehc4EwUr2_wW1BxUr3z8T9p"></div>
+
+			<button class="btn btn-success ml-3" type="submit"> Send</button>
+			<button class="btn btn-warning ml-3" type="reset">Reset</button>
 
 		</form>
 	</div>
