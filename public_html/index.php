@@ -291,9 +291,9 @@
 		<div class="row">
 			<!--single item-->
 			<div class="col py-3">
-				<a href="https://www.facebook.com/opeyemi.jonah.94"><i class="fab fa-facebook-square fa-4x px-2 "></i></a>
-				<a href="https://github.com/opeyemi-jonah"><i class="fab fa-github-alt fa-4x px-2" id="git"></i></a>
-				<a href="https://www.linkedin.com/in/opeyemi-jonah-988800197/"><i class="fab fa-linkedin fa-4x px-2"></i></a>
+				<a href="https://www.facebook.com/opeyemi.jonah.94" target="_blank"><i class="fab fa-facebook-square fa-4x px-2 "></i></a>
+				<a href="https://github.com/opeyemi-jonah" target="_blank"><i class="fab fa-github-alt fa-4x px-2" id="git"></i></a>
+				<a href="https://www.linkedin.com/in/opeyemi-jonah-988800197/" target="_blank"><i class="fab fa-linkedin fa-4x px-2"></i></a>
 			</div>
 			<!--end of item-->
 		</div>
