@@ -1,6 +1,6 @@
 <?php
 /**
- * index.html
+ * index.php
  *
  * This file handles secure mail transport using the Swiftmailer
  * library with Google reCAPTCHA integration.

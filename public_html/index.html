@@ -15,13 +15,19 @@
 	<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
 	<!--font awesome-->
 	<script src="js/all.js"></script>
+
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-	<script src="js/form-validate.js"></script>
+	<script src="./js/form-validate.js"></script>
+
+	<!-- jQuery Form, Additional Methods, Validate -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 
 	<title>Jonah Fullstack</title>
@@ -256,15 +262,17 @@
 			</div>
 		</div>
 
-		<form>
+		<form action="../php/mailer.php" id="my-contact-form" method="POST">
 
 			<input type="text" id="name" name="name" placeholder="Your Name (required)">
 
 			<input type="text" id="email" name="email" placeholder="Your Email (required)">
 
-			<textarea id="subject" name="subject" placeholder="Message..." style="height:200px"></textarea>
+			<input type="text" id="subject" name="subject" placeholder="Subject">
 
-			<div class="g-recaptcha ml-3" data-sitekey="6LeCBOwUAAAAAMmQ-ehc4EwUr2_wW1BxUr3z8T9p"></div>
+			<textarea id="message" name="message" placeholder="Message..." style="height:200px"></textarea>
+
+			<div class="g-recaptcha" data-sitekey="6LeCBOwUAAAAAMmQ-ehc4EwUr2_wW1BxUr3z8T9p"></div>
 
 			<button class="btn btn-success ml-3 " type="submit"> Send</button>
 			<button class="btn btn-warning ml-3" type="reset">Reset</button>
@@ -272,7 +280,17 @@
 		</form>
 
 	</div>
+
 </section>
+</div>
+<!--To catch errors and display them-->
+<!--empty area for form error/success output-->
+<div class="row">
+	<div class="col-xs-12">
+		<div id="output-area">
+
+		</div>
+	</div>
 </div>
 
 <!--footer-->
@@ -283,7 +301,7 @@
 			<!--single item-->
 			<div class="col py-3">
 				<a href="https://www.facebook.com/opeyemi.jonah.94" target="_blank"><i class="fab fa-facebook-square fa-4x px-2 "></i></a>
-				<a href="https://github.com/opeyemi-jonah" target="_blank"><i class="fab fa-github-alt fa-4x px-2" id="git"></i></a>
+				<a href="https://github.com/opeyemi-jonah" target="_blank"><i class="fab fa-github-alt fa-4x px-2" id="git1"></i></a>
 				<a href="https://www.linkedin.com/in/opeyemi-jonah-988800197/" target="_blank"><i class="fab fa-linkedin fa-4x px-2"></i></a>
 			</div>
 			<!--end of item-->
@@ -291,11 +309,6 @@
 	</div>
 
 </footer>
-<!-- jQuery Form, Additional Methods, Validate -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-
 
 </body>
 </html>
