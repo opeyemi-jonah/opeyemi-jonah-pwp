@@ -50,6 +50,20 @@ body{font-family: 'Arvo', serif;}
 .contact-pic{
 	background: url("../images/h2o.jpg")center/cover no-repeat fixed;
 }
+
+.my-image{
+	height: auto;
+	width: auto;
+}
+
+a{
+	color: #6c757d;
+	transition: all 0.5s;
+	text-decoration: none;
+	line-height: 1.4;
+
+}
+
 .height{
 	min-height: 100vh;
 
