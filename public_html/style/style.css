@@ -54,6 +54,7 @@ body{font-family: 'Arvo', serif;}
 .my-image{
 	height: auto;
 	width: auto;
+	padding-bottom: 10px;
 }
 
 a{
